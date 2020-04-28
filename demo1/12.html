@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字体图标</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .anli {
+            margin: 10px 30px;
+        }
+        
+        .btn1 {
+            font-size: 36px;
+            color: red;
+            text-shadow: black 5px 3px 3px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .dropdown {
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+          计算机学院
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li class="dropdown-header">计算机网络技术</li>
+            <li><a href="#">1701</a></li>
+            <li><a href="#">1702</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown-header">信息管理</li>
+            <li><a href="#">1701</a></li>
+            <li><a href="#">1702</a></li>
+            <!--禁用-->
+            <li class="disabled"><a href="#">1703</a></li>
+        </ul>
+    </div>
+    <div class="anli">
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+        <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+      </button>
+        <button type="button" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>哇咔咔
+      </button>
+        <br /><br />
+        <div class="alert alert-danger" role="alert">
+            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+            <span class="sr-only">Error:</span> Enter a valid email address
+        </div>
+        <div class="button">
+            <button type="button" class="btn btn-primary btn1">
+         <span class="glyphicon glyphicon-user"></span>user
+        </button>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+            WEB标准
+            <span class="caret"></span>
+		    <!--三角形-->
+		  </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+            </ul>
+
+        </div>
+    </div>
+</body>
+
+</html>

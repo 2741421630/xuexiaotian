@@ -1,0 +1,86 @@
+.body {
+  font-family: "microsoft yahei", Arial, sans-serif;
+  filter: Gray;
+}
+
+.cvheader {
+  border-bottom: 1px solid #dfdfdf;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.cvheader h1 {
+  margin: 0;
+}
+
+.address {
+  background: #efb73e;
+  color: #fff;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.cvbody {
+  padding-top: 50px;
+}
+
+.cbox {
+  margin-bottom: 30px;
+  color: #fff;
+  padding: 50px;
+}
+/* 定义cbox颜色 */
+
+.green {
+  background-color: aliceblue;
+  color: rgb(8, 0, 0);
+  border-radius: 5px;
+}
+
+.orange {
+  background: beige;
+  color: rgb(8, 0, 0);
+  border-radius: 5px;
+}
+
+.red {
+  background: floralwhite;
+  color: rgb(8, 0, 0);
+  border-radius: 5px;
+}
+
+.bbox {
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 50px;
+  background-color: lightcyan;
+  color: steelblue;
+}
+
+.footer {
+  margin: 10px 0 30px;
+  padding: 35px;
+  background-color: cadetblue;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.images {
+  width: 250px;
+  height: 150px;
+}
+
+.navbar {
+  margin: 0 20px 0 20px;
+}
+
+.text-primary {
+  cursor: pointer;
+}
+
+.footer .glyphicon {
+  font-size: 20px;
+}

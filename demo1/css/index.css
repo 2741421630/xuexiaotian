@@ -1,0 +1,51 @@
+#from {
+    background-color: #4D8BE7;
+    border: 1px;
+}
+
+.mycenter {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 500px;
+    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 5px;
+    color: #fff;
+}
+
+.mycenter {
+    width: 440px;
+}
+
+.mycenter input,
+.button {
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mycheckbox {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    height: 10px;
+    border-radius: 2px;
+}
+
+#password {
+    line-height: 15px;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #aab345;
+}
+
+.form-control {
+    width: 50%;
+    height: 30px;
+}

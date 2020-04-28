@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>列嵌套</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+    .row {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    [class*="col-"] {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: aliceblue;
+        border: 1px solid #aa9467;
+    }
+    
+    .col-md-3,
+    .col-md-9 {
+        background-color: blueviolet;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-8">col-md-8
+                <div class="row">
+                    <div class="col-md-8">col-md-8</div>
+                    <div class="col-md-4">col-md-4</div>
+                </div>
+            </div>
+            <div class="col-md-4">col-md-4
+                <div class="row">
+                    <div class="col-md-9">col-md-9</div>
+                    <div class="col-md-3">col-md-3</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

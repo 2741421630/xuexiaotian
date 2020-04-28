@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>百度</title>
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="logo" id="logo"><img src="images/bd_logo1.png" /></div>
+    <div class="input-box">
+        <div class="input-item">
+            <input type="text" name="" id="keyword" placeholder="百度一下" onFocus="showList()" onblur="hideList()"><span id="button">百度一下</span>
+            <div class="h-list">
+                <ul>
+                    <li>百度一下</li>
+                    <li>百度一下</li>
+                    <li>百度一下</li>
+                    <li>百度一下</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3>用户信息</h3>
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="用户名">
+            <span class="input-group-addon">@qq.com</span>
+        </div>
+        <br/><br/>
+        <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input type="text" class="form-control">
+            <span class="input-group-addon">.00</span>
+
+
+
+
+        </div>
+
+
+    </div>
+
+    <script type="text/javascript">
+        $(function() {
+
+            $("#button").unbind().click(function() {
+                seacher()
+            })
+        })
+
+        function seacher() {
+            var key = $("#keyword").val();
+            var key = document.getElementById("keyword").value;
+        }
+
+        function showList() {
+            $(".h-list").show();
+        }
+
+        function hideList() {
+            $(".h-list").hide()
+        }
+    </script>
+</body>
+
+</html>

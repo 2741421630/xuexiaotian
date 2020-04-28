@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+</head>
+<style type="text/css">
+    .wenben {
+        line-height: 30px;
+        margin: 30px 80px;
+    }
+    
+    .anniu {
+        line-height: 30px;
+        margin: 30px 80px;
+    }
+    
+    p .center-block {
+        width: 200px;
+        background-color: aquamarine;
+        text-align: center;
+        line-height: 30px;
+    }
+    
+    .flot {
+        margin: 80px;
+        width: 800px;
+        height: 500px;
+        background-color: khaki;
+        line-height: 30px;
+    }
+    
+    .flot>.text-hide {
+        background: url(image/timg2.jpg);
+        width: 530px;
+        height: 300px;
+        margin-left: 120px;
+        float: left;
+    }
+</style>
+
+<body>
+    <div class="wenben">
+        <a href="#" class="text-muted"><span class="caret"></span>柔和文本:浅灰色</a><br/>
+        <a href="#" class="text-primary"><span class="caret"></span>主要文本:蓝色</a><br/>
+        <a href="#" class="text-success">成功文本:绿色</a><br/>
+        <a href="#" class="text-info">信息文本:浅蓝色</a><br/>
+        <a href="#" class="text-warning">警告文本:黄色</a><br/>
+        <a href="#" class="text-danger">危险:褐色</a><br/>
+
+        <!--情景文本颜色-->
+        <a href="#" class="bg-primary">主要背景:蓝色</a><br/>
+        <a href="#" class="bg-success">成功:绿色</a><br/>
+        <a href="#" class="bg-info">信息背景:浅蓝色</a><br/>
+        <a href="#" class="bg-warning">警告背景:红色</a><br/>
+        <a href="#" class="bg-danger">危险背景:褐色</a><br/>
+    </div>
+
+    <!--关闭按钮-->
+    <div class="anniu">
+        <p>
+            关闭按钮实例
+            <button type="button" class="close">
+        <span aria-hidden="true">&times;</span>
+        <span class="sr-only">Close</span>
+        </button>
+        </p>
+        <p>三角符号<span class="caret"></span></p>
+    </div>
+
+    <span class="center-block">块级居中显示</span>
+
+    <div class="flot">
+
+        <div class="pull-left">向左浮动</div>
+        <div class="pull-right">向右浮动</div>
+        <span class="clearfix"></span>
+        <div>清除浮动后面的内容</div>
+        <h1 class="text-hide">Title</h1>
+    </div>
+
+
+</body>
+
+</html>

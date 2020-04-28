@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简介</title>
+    <link rel="stylesheet" href="css/introduce.css">
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!--左边-->
+            <div class="col-md-3">
+                <!--1-->
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand active" href="#">剧情简介</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">创作背景</a></li>
+                                <li><a href="#">角色简介</a></li>
+                                <li><a href="#">喜爱程度</a></li>
+                                <li><a href="#">TA说</a></li>
+                                <li><a href="#">关联作品</a></li>
+                                <li><a href="#">作品评价</a></li>
+                                <li><a href="#">创作背景</a></li>
+                            </ul>
+                            <button type="submit" class="btn btn-default navbar-btn navbar-right">登录</button>
+                            <button type="submit" class="btn btn-danger navbar-btn navbar-right">设置</button>
+                            <ul class="nav navbar-nav navbar-right">
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="panel panel-default">
+                    <div class="panel-heading">个人信息</div>
+                    <div class="panel-body">
+                        <img alt="pic" class="img-responsive img-rounded img-thumbnail" src="image/xiaoxinone.jpg"
+                            height="200px">
+                        <p><a class="text-center text-primary"
+                                href="https://baike.baidu.com/tashuo/browse/content?id=632fc520de6ee3e217bfbbe5&fr=qingtian&lemmaId=29538">活得像他一样快乐</a>
+                        </p>
+                        <address>
+                            <span class="glyphicon glyphicon-globe" title="地址"><code>日本</code></span>
+                            <br />
+                            <span class="glyphicon glyphicon-file" title="邮政编码">
+                                <abbr title="PostalCode">50册（已完结，另有续集）</abbr>
+                            </span>
+                            <br />
+                            <span class="glyphicon glyphicon-dashboard" title="出版时间:">
+                                <abbr title="Phone">出版时间:</abbr>1990年
+                            </span><br />
+                            <span class="glyphicon glyphicon-folder-close" title="出版社">
+                                <abbr title="出版社">出版社:</abbr>日本双叶社
+                            </span>
+                        </address>
+                    </div>
+                </div>
+                <!--2-->
+                <div class="panel panel-info">
+                    <div class="panel-heading">喜爱程度</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <span class="text-muted">China</span>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped active" style="width: 85%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <span class="text-muted">Japan</span>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-info active"
+                                        style="width: 80%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <span class="text-muted">Germany</span>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped  progress-bar-danger active"
+                                        style="width: 75%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <span class="text-muted">Spain</span>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped  progress-bar-warning active"
+                                        style="width: 80%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--3-->
+                <div class="panel panel-primary">
+                    <div class="panel-heading">TA说</div>
+                    <div class="panel-body col-sm-7">
+                        <img alt="pic" class="img-responsive img-rounded img-thumbnail" src="image/xiaoxin.jpg"
+                            height="200px">
+
+                    </div>
+                    <div class="col-sm-5">
+                        <a
+                            href="https://baike.baidu.com/tashuo/browse/content?id=632fc520de6ee3e217bfbbe5&fr=qingtian&lemmaId=29538">只有快乐的人，才能传递快乐。他的快乐不只丰富了孩子们童年，也感动着大人。</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--右边-->
+            <div class="col-md-9">
+                <!--1-->
+                <div class="jumbotron">
+                    <p class="text-right small">
+                        <a>
+                            <h3>创作背景</h3>
+                        </a>
+                        <a>臼井仪人</a>先生说之所以会创造出小新这个形象，是因为他在观察自己的孩子的时候，发现小孩子的想法往往非常独特，以至于作者被小孩的世界所吸引。所有的小孩都有乖巧和调皮的两面性。这种两面性对作者来讲是十分有趣的。反过来作者正是在自己的作品中反映了这一两面性。<br />他同时承认“小新”有一部分是他自己的翻版。据他透露，蜡笔小新里有许多内容是他现实生活的写照，例如：小新爸爸造型与他本人有些相似；小新和他爸爸两道浓眉毛乃是因作者自己嫌弃自己的眉毛太稀疏
+
+                    </p>
+                </div>
+                <div class="panel-group" id="accordion">
+
+                    <!--2-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> 角色简介(原野一家) </a>
+                            </div>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                野原新之助</div>
+                                            <div class="col-sm-4"> 5岁，美伢、广志之子，小葵之兄。</div>
+                                            <div class="col-sm-4">
+                                                喜欢漂亮的姐姐和辣妹。性格是我行我素。擅长的技能是“屁股外星人”“大象”。</div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item list-group-item-info">
+                                        <div class="row">
+                                            <div class="col-sm-4"> 野原小白</div>
+                                            <div class="col-sm-4"> 年龄：29岁。熊本出身。</div>
+                                            <div class="col-sm-4"> 好面子，不认输，善良。脾气暴躁（对帅哥很温柔)弱点是受不了别人的甜言蜜语。
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item list-group-item-danger">
+                                        <div class="row">
+                                            <div class="col-sm-4">野原向日葵</div>
+                                            <div class="col-sm-4"> 被抛弃的弃狗，后来被小新捡回家。</div>
+                                            <div class="col-sm-4"> 从垃圾堆捡来的一只狗。</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--3-->
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"> 角色简介(小新同学) </a>
+                            </div>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse in ">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-info">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                风间彻</div>
+                                            <div class="col-sm-4"> 向日葵班学生。</div>
+                                            <div class="col-sm-4">
+                                                平时有点装腔作势，自尊心很高，但有时也有出乎意料的温柔的一面的优等生。</div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-sm-4"> 小山真冴（小山 まさえ）（小山雅惠）</div>
+                                            <div class="col-sm-4"> 35岁。芳治、高的长女，美冴的姐姐，梦冴的大姐，中学国语教师。</div>
+                                            <div class="col-sm-4"> 平常严肃、认真，但有时候喜欢恶作剧。</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="list-group-item list-group-item-danger">
+                                        <div class="row">
+                                            <div class="col-sm-4">樱田妮妮</div>
+                                            <div class="col-sm-4"> 向日葵班学生。</div>
+                                            <div class="col-sm-4"> 喜欢当别人的传闻的女儿。喜欢玩超现实的过家家</div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                阿呆</div>
+                                            <div class="col-sm-4"> 向日葵班学生。</div>
+                                            <div class="col-sm-4">
+                                                总是发呆，拖着鼻涕，说话的时候很敏锐。</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--4-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"> 蜡笔小新壁纸 </a>
+                            </div>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse  in">
+                            <div class="panel-body">
+
+                                <div id="myCarousel" class="carousel slide">
+                                    <!-- 轮播（Carousel）指标 -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- 轮播（Carousel）项目 -->
+
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="image/bizhi1.jpg" alt="First slide" width="730px" height="440">
+                                            <div class="carousel-caption">Canvas Flip</div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="image/bizhi2.jpg" alt="Second slide" width="730px" height="440">
+                                            <div class="carousel-caption">Litta App</div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="image/bizhi3.jpg" alt="Third slide" width="730px" height="440">
+                                            <div class="carousel-caption">Vipp </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="image/bizhi4.jpg" alt="forth slide" width="730px" height="440">
+                                            <div class="carousel-caption">Vipp </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="image/bizhi5.jpg" alt="fivith slide" width="730px" height="440">
+                                            <div class="carousel-caption">Vipp </div>
+                                        </div>
+                                    </div>
+                                    <!-- 轮播（Carousel）导航 -->
+                                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
